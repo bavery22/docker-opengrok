@@ -1,5 +1,5 @@
 #!/bin/sh
-service tomcat7 start
+service tomcat8 start
 
 # link mounted source directory to opengrok
 ln -s /src $OPENGROK_INSTANCE_BASE/src
